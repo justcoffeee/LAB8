@@ -1,0 +1,23 @@
+[
+  {
+    "bucket": "low_0.50_0.70",
+    "n": 4896,
+    "errors": 1991,
+    "accuracy": 0.5933415032679739,
+    "mean_confidence": 0.602687656879425
+  },
+  {
+    "bucket": "medium_0.70_0.90",
+    "n": 7396,
+    "errors": 1846,
+    "accuracy": 0.7504056246619795,
+    "mean_confidence": 0.8123235702514648
+  },
+  {
+    "bucket": "high_0.90_1.00",
+    "n": 12708,
+    "errors": 740,
+    "accuracy": 0.941768964431854,
+    "mean_confidence": 0.9624242186546326
+  }
+]

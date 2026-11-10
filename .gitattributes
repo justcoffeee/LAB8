@@ -1,0 +1,4 @@
+# Keep Python source hashes stable on Windows and Linux.
+*.py text eol=lf
+# Preserve the exact downloaded tokenizer/config assets recorded in the manifest.
+model/* -text

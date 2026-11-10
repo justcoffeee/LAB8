@@ -1,0 +1,18 @@
+[
+  {
+    "domain": "IMDb movie reviews",
+    "n": 25000,
+    "accuracy": 0.81692,
+    "precision": 0.8099037784557616,
+    "recall": 0.82824,
+    "f1": 0.8189692678875133
+  },
+  {
+    "domain": "Yelp business reviews",
+    "n": 4000,
+    "accuracy": 0.791,
+    "precision": 0.7482935153583617,
+    "recall": 0.877,
+    "f1": 0.8075506445672191
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "model_id": "google/bert_uncased_L-2_H-128_A-2",
+  "model_revision": "30b0a37ccaaa32f332884b96992754e246e48c5f",
+  "domain_dataset": "fancyzhx/yelp_polarity",
+  "domain_revision": "bbf1c97a1f0cf005e5aded43839fd814654a1557",
+  "files": {
+    "model/config.json": {
+      "url": "https://huggingface.co/google/bert_uncased_L-2_H-128_A-2/resolve/30b0a37ccaaa32f332884b96992754e246e48c5f/config.json",
+      "bytes": 382,
+      "sha256": "508e1f01aae55d73355cbdd82609be2f43ba5a0d3428837adbe56cf8391f8b39"
+    },
+    "model/vocab.txt": {
+      "url": "https://huggingface.co/google/bert_uncased_L-2_H-128_A-2/resolve/30b0a37ccaaa32f332884b96992754e246e48c5f/vocab.txt",
+      "bytes": 231508,
+      "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+    },
+    "model/model.safetensors": {
+      "url": "https://huggingface.co/google/bert_uncased_L-2_H-128_A-2/resolve/30b0a37ccaaa32f332884b96992754e246e48c5f/model.safetensors",
+      "bytes": 17739144,
+      "sha256": "7fb69ad9f6866d8983183c930e33828f326470bf6ad8bbb2ad4ed957a92e9414"
+    },
+    "data/yelp-test-0.parquet": {
+      "url": "https://huggingface.co/datasets/fancyzhx/yelp_polarity/resolve/bbf1c97a1f0cf005e5aded43839fd814654a1557/plain_text/test-00000-of-00001.parquet",
+      "bytes": 17701458,
+      "sha256": "43f89639c05b9a91634c8c972979e074942f59df15f6369ccb81a7f402af1a25"
+    }
+  }
+}

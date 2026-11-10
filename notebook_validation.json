@@ -1,0 +1,8 @@
+{
+  "code_cells_executed": {
+    "tokenization.ipynb": 6,
+    "fine_tuning.ipynb": 10
+  },
+  "errors": 0,
+  "method": "Actual ordinary Python exec in a fresh shared namespace per notebook; training previously run by run_experiments.py; embedded PNG attachments"
+}

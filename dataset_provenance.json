@@ -1,0 +1,15 @@
+{
+  "imdb_arrow_folder": "C:\\Users\\Admin\\.cache\\huggingface\\datasets\\stanfordnlp___imdb\\plain_text\\0.0.0\\e6281661ce1c48d982bc483cf8a173c1bbeb5d31",
+  "imdb_sha256": {
+    "imdb-train.arrow": "7f135c5a8f758597f5f96f36d9e7676a612f0aac53ae8411bfb799253eefbc7c",
+    "imdb-test.arrow": "4c7203aaae5b948ac341d611e27d8ca54b7812d34141bf2edba8d3753c89e7dd"
+  },
+  "imdb_sizes": [
+    20000,
+    5000,
+    25000
+  ],
+  "yelp_original_test_size": 38000,
+  "yelp_evaluated_size": 4000,
+  "labels": "0=negative, 1=positive for both datasets"
+}

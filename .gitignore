@@ -1,0 +1,8 @@
+__pycache__/
+.ipynb_checkpoints/
+
+# Downloaded datasets and model weights stay local; download_assets.py restores assets.
+data/
+*.pt
+*.safetensors
+model/pytorch_model.bin

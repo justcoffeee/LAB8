@@ -1,0 +1,34 @@
+{
+  "started_utc": "2026-11-04T17:48:30.293996+00:00",
+  "seed": 42,
+  "model_id": "google/bert_uncased_L-2_H-128_A-2",
+  "tokenizer": "BertTokenizerFast / uncased WordPiece",
+  "torch": "2.15.0.dev20260907+cu126",
+  "transformers": "5.19.0",
+  "python": "3.14.8",
+  "numpy": "2.5.3",
+  "device": "cuda",
+  "hardware": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "train_validation_test": [
+    20000,
+    5000,
+    25000
+  ],
+  "epochs": 4,
+  "batch_size": 64,
+  "optimizer": "AdamW",
+  "lr": 0.0001,
+  "weight_decay": 0.01,
+  "gradient_clip": 1.0,
+  "scheduler": null,
+  "primary": "pretrained_finetune_p100_t128; fixed before experiments",
+  "checkpoint_selection": "minimum validation cross entropy per run",
+  "timing": "summed train epochs only; CUDA synchronized; validation/test excluded; frozen includes encoder forward each batch, no feature cache",
+  "max_length_definition": "total WordPiece tokens including CLS and SEP",
+  "determinism": "fixed seeds and deterministic cuDNN; no bitwise guarantee across machines/versions",
+  "source_sha256": {
+    "run_experiments.py": "cfd0901a88fd26395d82fa552d950bf5e2957b8475abd79de085c52d59af507f",
+    "pretrained_classification.py": "48a8caa3ad83efa3d64e25d7fe88ed84cc599de99e33ceb16fc50ad940f7162f"
+  },
+  "finished_utc": "2026-11-04T17:54:03.517858+00:00"
+}

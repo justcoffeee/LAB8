@@ -1,0 +1,14 @@
+
+Loading weights:   0%|          | 0/42 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 42/42 [00:00<00:00, 6813.68it/s]
+[transformers] BertForMaskedLM LOAD REPORT from: C:\Code\NLP\lab8\model
+Key                         | Status     |  | 
+----------------------------+------------+--+-
+bert.pooler.dense.weight    | UNEXPECTED |  | 
+cls.seq_relationship.bias   | UNEXPECTED |  | 
+cls.seq_relationship.weight | UNEXPECTED |  | 
+bert.pooler.dense.bias      | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Reports written; both notebooks executed successfully.

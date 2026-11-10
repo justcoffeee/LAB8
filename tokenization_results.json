@@ -1,0 +1,76 @@
+{
+  "text": "The cats are playing.",
+  "words_whitespace": 4,
+  "word_definition": "whitespace; punctuation remains attached",
+  "tokens": [
+    "[CLS]",
+    "the",
+    "cats",
+    "are",
+    "playing",
+    ".",
+    "[SEP]",
+    "[PAD]",
+    "[PAD]",
+    "[PAD]",
+    "[PAD]",
+    "[PAD]"
+  ],
+  "input_ids": [
+    101,
+    1996,
+    8870,
+    2024,
+    2652,
+    1012,
+    102,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "attention_mask": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "token_type_ids": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "special_tokens": {
+    "unk_token": "[UNK]",
+    "sep_token": "[SEP]",
+    "pad_token": "[PAD]",
+    "cls_token": "[CLS]",
+    "mask_token": "[MASK]"
+  },
+  "keys": [
+    "input_ids",
+    "token_type_ids",
+    "attention_mask"
+  ],
+  "content_tokens": 5,
+  "subword_continuations": 0,
+  "subword_definition": "All WordPiece content tokens are subword-vocabulary tokens; ## counts continuation pieces only"
+}

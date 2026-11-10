@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "checks": [
+    "11 runs x 4 epochs; checkpoint selection equals minimum validation CE; all metrics and CE independently recomputed",
+    "disjoint IMDb split, exact equality with LAB7, correctly sized nested subsets",
+    "frozen encoder unchanged; exactly 258 head parameters trained",
+    "confusion matrix, confidence buckets, 3 FP/3 FN and top-2 confident wrong examples exactly match primary predictions",
+    "Yelp held-out sample has 4000 unique official test indices; domain metrics recomputed",
+    "training source and downloaded model/data hashes match provenance",
+    "all W8 deliverable filenames present; both notebooks have real executed outputs and zero errors"
+  ]
+}

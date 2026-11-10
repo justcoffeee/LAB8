@@ -1,0 +1,183 @@
+DEVICE cuda
+
+Loading weights:   0%|          | 0/37 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 37/37 [00:00<00:00, 6353.45it/s]
+[transformers] BertModel LOAD REPORT from: C:\Code\NLP\lab8\model
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+bert.pooler.dense.bias                     | UNEXPECTED |  | 
+bert.pooler.dense.weight                   | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+pretrained_finetune_p10_t128 ep 1/4: train=0.6758 val=0.6594 valF1=0.4773 time=2.3s
+pretrained_finetune_p10_t128 ep 2/4: train=0.6059 val=0.5931 valF1=0.6221 time=0.9s
+pretrained_finetune_p10_t128 ep 3/4: train=0.5004 val=0.5695 valF1=0.6673 time=0.9s
+pretrained_finetune_p10_t128 ep 4/4: train=0.4330 val=0.5242 valF1=0.7526 time=0.9s
+RESULT {"run": "pretrained_finetune_p10_t128", "initialization": "pretrained", "mode": "finetune", "fraction": 0.1, "train_samples": 2000, "max_length": 128, "epochs": 4, "best_epoch": 4, "learning_rate": 0.0001, "batch_size": 64, "parameters": 4369666, "trainable_parameters": 4369666, "train_seconds": 5.0225626999745145, "peak_allocated_MiB": 222.95751953125, "val_loss": 0.524218221950531, "test_loss": 0.5371273761749268, "accuracy": 0.73932, "precision": 0.7360157790927022, "recall": 0.74632, "f1": 0.7411320754716981}
+
+Loading weights:   0%|          | 0/37 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 37/37 [00:00<00:00, 4715.85it/s]
+[transformers] BertModel LOAD REPORT from: C:\Code\NLP\lab8\model
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+bert.pooler.dense.bias                     | UNEXPECTED |  | 
+bert.pooler.dense.weight                   | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+pretrained_finetune_p25_t128 ep 1/4: train=0.6448 val=0.5740 valF1=0.7489 time=2.3s
+pretrained_finetune_p25_t128 ep 2/4: train=0.4906 val=0.4686 valF1=0.7888 time=2.2s
+pretrained_finetune_p25_t128 ep 3/4: train=0.3939 val=0.4614 valF1=0.7865 time=2.3s
+pretrained_finetune_p25_t128 ep 4/4: train=0.3197 val=0.4817 valF1=0.7896 time=2.2s
+RESULT {"run": "pretrained_finetune_p25_t128", "initialization": "pretrained", "mode": "finetune", "fraction": 0.25, "train_samples": 5000, "max_length": 128, "epochs": 4, "best_epoch": 3, "learning_rate": 0.0001, "batch_size": 64, "parameters": 4369666, "trainable_parameters": 4369666, "train_seconds": 8.928039000020362, "peak_allocated_MiB": 222.95751953125, "val_loss": 0.46142086319923403, "test_loss": 0.48739630516052246, "accuracy": 0.7786, "precision": 0.8157584549823194, "recall": 0.71976, "f1": 0.7647583832717073}
+
+Loading weights:   0%|          | 0/37 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 37/37 [00:00<00:00, 6733.89it/s]
+[transformers] BertModel LOAD REPORT from: C:\Code\NLP\lab8\model
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+bert.pooler.dense.bias                     | UNEXPECTED |  | 
+bert.pooler.dense.weight                   | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+pretrained_finetune_p50_t128 ep 1/4: train=0.5944 val=0.4638 valF1=0.7760 time=4.4s
+pretrained_finetune_p50_t128 ep 2/4: train=0.4332 val=0.4292 valF1=0.8141 time=4.4s
+pretrained_finetune_p50_t128 ep 3/4: train=0.3681 val=0.4569 valF1=0.7835 time=4.4s
+pretrained_finetune_p50_t128 ep 4/4: train=0.2963 val=0.4456 valF1=0.8140 time=4.6s
+RESULT {"run": "pretrained_finetune_p50_t128", "initialization": "pretrained", "mode": "finetune", "fraction": 0.5, "train_samples": 10000, "max_length": 128, "epochs": 4, "best_epoch": 2, "learning_rate": 0.0001, "batch_size": 64, "parameters": 4369666, "trainable_parameters": 4369666, "train_seconds": 17.704119099944364, "peak_allocated_MiB": 222.95751953125, "val_loss": 0.4292359574317932, "test_loss": 0.44472592514038084, "accuracy": 0.7962, "precision": 0.7847419826193955, "recall": 0.81632, "f1": 0.8002195820099596}
+
+Loading weights:   0%|          | 0/37 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 37/37 [00:00<00:00, 4738.60it/s]
+[transformers] BertModel LOAD REPORT from: C:\Code\NLP\lab8\model
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+bert.pooler.dense.bias                     | UNEXPECTED |  | 
+bert.pooler.dense.weight                   | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+pretrained_finetune_p100_t128 ep 1/4: train=0.5310 val=0.4189 valF1=0.8139 time=9.1s
+pretrained_finetune_p100_t128 ep 2/4: train=0.3986 val=0.3819 valF1=0.8355 time=9.0s
+pretrained_finetune_p100_t128 ep 3/4: train=0.3262 val=0.4116 valF1=0.8371 time=8.7s
+pretrained_finetune_p100_t128 ep 4/4: train=0.2596 val=0.4183 valF1=0.8256 time=8.6s
+RESULT {"run": "pretrained_finetune_p100_t128", "initialization": "pretrained", "mode": "finetune", "fraction": 1.0, "train_samples": 20000, "max_length": 128, "epochs": 4, "best_epoch": 2, "learning_rate": 0.0001, "batch_size": 64, "parameters": 4369666, "trainable_parameters": 4369666, "train_seconds": 35.42873770010192, "peak_allocated_MiB": 222.95751953125, "val_loss": 0.3819365065574646, "test_loss": 0.40532595567703245, "accuracy": 0.81692, "precision": 0.8099037784557616, "recall": 0.82824, "f1": 0.8189692678875133}
+scratch_finetune_p10_t128 ep 1/4: train=0.7173 val=0.6926 valF1=0.0000 time=0.9s
+scratch_finetune_p10_t128 ep 2/4: train=0.7044 val=0.6944 valF1=0.0000 time=0.9s
+scratch_finetune_p10_t128 ep 3/4: train=0.6982 val=0.6870 valF1=0.0306 time=0.9s
+scratch_finetune_p10_t128 ep 4/4: train=0.6859 val=0.6723 valF1=0.6837 time=0.9s
+RESULT {"run": "scratch_finetune_p10_t128", "initialization": "scratch", "mode": "finetune", "fraction": 0.1, "train_samples": 2000, "max_length": 128, "epochs": 4, "best_epoch": 4, "learning_rate": 0.0001, "batch_size": 64, "parameters": 4369666, "trainable_parameters": 4369666, "train_seconds": 3.563760999997612, "peak_allocated_MiB": 222.95751953125, "val_loss": 0.6723408797264099, "test_loss": 0.6736781996726989, "accuracy": 0.54292, "precision": 0.5227919622753728, "recall": 0.98448, "f1": 0.6829268292682927}
+scratch_finetune_p25_t128 ep 1/4: train=0.7071 val=0.6901 valF1=0.6667 time=2.2s
+scratch_finetune_p25_t128 ep 2/4: train=0.6847 val=0.6335 valF1=0.7275 time=2.2s
+scratch_finetune_p25_t128 ep 3/4: train=0.4748 val=0.5258 valF1=0.7083 time=2.1s
+scratch_finetune_p25_t128 ep 4/4: train=0.2833 val=0.5328 valF1=0.8069 time=2.2s
+RESULT {"run": "scratch_finetune_p25_t128", "initialization": "scratch", "mode": "finetune", "fraction": 0.25, "train_samples": 5000, "max_length": 128, "epochs": 4, "best_epoch": 3, "learning_rate": 0.0001, "batch_size": 64, "parameters": 4369666, "trainable_parameters": 4369666, "train_seconds": 8.761225099966396, "peak_allocated_MiB": 222.95751953125, "val_loss": 0.5258278388023376, "test_loss": 0.554636964378357, "accuracy": 0.73396, "precision": 0.8521372667068031, "recall": 0.56616, "f1": 0.6803172314347513}
+scratch_finetune_p50_t128 ep 1/4: train=0.7010 val=0.6745 valF1=0.0468 time=4.5s
+scratch_finetune_p50_t128 ep 2/4: train=0.4820 val=0.4132 valF1=0.8180 time=4.5s
+scratch_finetune_p50_t128 ep 3/4: train=0.3061 val=0.4077 valF1=0.8214 time=4.4s
+scratch_finetune_p50_t128 ep 4/4: train=0.2120 val=0.4554 valF1=0.8154 time=4.4s
+RESULT {"run": "scratch_finetune_p50_t128", "initialization": "scratch", "mode": "finetune", "fraction": 0.5, "train_samples": 10000, "max_length": 128, "epochs": 4, "best_epoch": 3, "learning_rate": 0.0001, "batch_size": 64, "parameters": 4369666, "trainable_parameters": 4369666, "train_seconds": 17.879244500072673, "peak_allocated_MiB": 222.95751953125, "val_loss": 0.4077071093797684, "test_loss": 0.44694245780944825, "accuracy": 0.80236, "precision": 0.8130020703933747, "recall": 0.78536, "f1": 0.798942014242116}
+scratch_finetune_p100_t128 ep 1/4: train=0.6015 val=0.4236 valF1=0.8159 time=8.7s
+scratch_finetune_p100_t128 ep 2/4: train=0.3529 val=0.3699 valF1=0.8394 time=8.5s
+scratch_finetune_p100_t128 ep 3/4: train=0.2610 val=0.4043 valF1=0.8415 time=8.8s
+scratch_finetune_p100_t128 ep 4/4: train=0.1975 val=0.4319 valF1=0.8345 time=8.9s
+RESULT {"run": "scratch_finetune_p100_t128", "initialization": "scratch", "mode": "finetune", "fraction": 1.0, "train_samples": 20000, "max_length": 128, "epochs": 4, "best_epoch": 2, "learning_rate": 0.0001, "batch_size": 64, "parameters": 4369666, "trainable_parameters": 4369666, "train_seconds": 34.997425200010184, "peak_allocated_MiB": 222.95751953125, "val_loss": 0.3699074900627136, "test_loss": 0.4064531614112854, "accuracy": 0.81612, "precision": 0.817109381269561, "recall": 0.81456, "f1": 0.8158326990104563}
+
+Loading weights:   0%|          | 0/37 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 37/37 [00:00<00:00, 5308.16it/s]
+[transformers] BertModel LOAD REPORT from: C:\Code\NLP\lab8\model
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+bert.pooler.dense.bias                     | UNEXPECTED |  | 
+bert.pooler.dense.weight                   | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+pretrained_frozen_p100_t128 ep 1/4: train=0.6883 val=0.6608 valF1=0.6186 time=3.7s
+pretrained_frozen_p100_t128 ep 2/4: train=0.6504 val=0.6329 valF1=0.6635 time=3.7s
+pretrained_frozen_p100_t128 ep 3/4: train=0.6278 val=0.6164 valF1=0.6726 time=3.7s
+pretrained_frozen_p100_t128 ep 4/4: train=0.6151 val=0.6056 valF1=0.6745 time=3.7s
+RESULT {"run": "pretrained_frozen_p100_t128", "initialization": "pretrained", "mode": "frozen", "fraction": 1.0, "train_samples": 20000, "max_length": 128, "epochs": 4, "best_epoch": 4, "learning_rate": 0.0001, "batch_size": 64, "parameters": 4369666, "trainable_parameters": 258, "train_seconds": 14.805737299961038, "peak_allocated_MiB": 61.96484375, "val_loss": 0.6055954502105713, "test_loss": 0.6064935617446899, "accuracy": 0.67552, "precision": 0.6923211781206171, "recall": 0.63184, "f1": 0.6606993474987451}
+
+Loading weights:   0%|          | 0/37 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 37/37 [00:00<00:00, 3498.01it/s]
+[transformers] BertModel LOAD REPORT from: C:\Code\NLP\lab8\model
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+bert.pooler.dense.bias                     | UNEXPECTED |  | 
+bert.pooler.dense.weight                   | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+pretrained_finetune_p100_t64 ep 1/4: train=0.5874 val=0.5093 valF1=0.7666 time=6.5s
+pretrained_finetune_p100_t64 ep 2/4: train=0.4774 val=0.4718 valF1=0.7822 time=6.3s
+pretrained_finetune_p100_t64 ep 3/4: train=0.4100 val=0.5004 valF1=0.7850 time=7.1s
+pretrained_finetune_p100_t64 ep 4/4: train=0.3441 val=0.4956 valF1=0.7859 time=6.2s
+RESULT {"run": "pretrained_finetune_p100_t64", "initialization": "pretrained", "mode": "finetune", "fraction": 1.0, "train_samples": 20000, "max_length": 64, "epochs": 4, "best_epoch": 2, "learning_rate": 0.0001, "batch_size": 64, "parameters": 4369666, "trainable_parameters": 4369666, "train_seconds": 26.042540200054646, "peak_allocated_MiB": 138.67626953125, "val_loss": 0.47178583707809446, "test_loss": 0.48415950780868533, "accuracy": 0.76384, "precision": 0.7705496308449549, "recall": 0.75144, "f1": 0.7608748481166464}
+
+Loading weights:   0%|          | 0/37 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 37/37 [00:00<00:00, 5535.95it/s]
+[transformers] BertModel LOAD REPORT from: C:\Code\NLP\lab8\model
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+bert.pooler.dense.bias                     | UNEXPECTED |  | 
+bert.pooler.dense.weight                   | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+pretrained_finetune_p100_t256 ep 1/4: train=0.4778 val=0.3541 valF1=0.8487 time=15.5s
+pretrained_finetune_p100_t256 ep 2/4: train=0.3238 val=0.3427 valF1=0.8451 time=15.5s
+pretrained_finetune_p100_t256 ep 3/4: train=0.2534 val=0.3583 valF1=0.8526 time=15.4s
+pretrained_finetune_p100_t256 ep 4/4: train=0.1934 val=0.3403 valF1=0.8696 time=15.5s
+RESULT {"run": "pretrained_finetune_p100_t256", "initialization": "pretrained", "mode": "finetune", "fraction": 1.0, "train_samples": 20000, "max_length": 256, "epochs": 4, "best_epoch": 4, "learning_rate": 0.0001, "batch_size": 64, "parameters": 4369666, "trainable_parameters": 4369666, "train_seconds": 61.935386900033336, "peak_allocated_MiB": 411.39599609375, "val_loss": 0.3403335267543793, "test_loss": 0.4045582337379456, "accuracy": 0.84592, "precision": 0.8575917962289117, "recall": 0.8296, "f1": 0.8433636955107352}
+COMPLETE: 11 configurations, real IMDb and Yelp evaluation.
